@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TenderAI – AI Powered Tender Search</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🤖 TenderAI</h1>
+<p>AI-Powered Tender Management Software</p>
+
+<input type="text" id="keyword" placeholder="Search keyword (Manpower, CCTV...)">
+
+<select id="state">
+  <option value="">All States</option>
+  <option value="Odisha">Odisha</option>
+  <option value="Maharashtra">Maharashtra</option>
+</select>
+
+<select id="sector">
+  <option value="">All Sectors</option>
+  <option value="Government">Government</option>
+  <option value="Private">Private</option>
+</select>
+
+<button onclick="searchTenders()">Search Tenders</button>
+
+<div id="results"></div>
+
+<script src="app.js"></script>
+</body>
+</html>
